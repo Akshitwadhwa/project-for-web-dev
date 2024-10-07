@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #f5f5dc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .navbar p {
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 10px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+  }
+  
+  .navbar .social-icons {
+    display: flex;
+  }
+  
+  .navbar .social-icons a {
+    margin-left: 10px;
+    font-size: 1.5em;
+    color: black;
+  }
+
+.main-image {
+    width: 100%;
+    height: 400px;
+    background: url('wedding69.jpeg') no-repeat center center;
+    background-size: cover;
+}
+.main-content {
+    background-color: rgba(139, 69, 19, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+.main-content h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.main-content p {
+    margin: 10px 0;
+}
+.main-content .book-now {
+    background-color: #d8bfd8;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hexagon-section {
+    background-color: #f0f8ff;
+    padding: 50px 0;
+    text-align: center;
+}
+.hexagon-section p {
+    font-size: 18px;
+    color: #000080;
+    margin: 0;
+    line-height: 1.5;
+}
+.secondary-images {
+    display: flex;
+    justify-content: space-between;
+}
+.secondary-image1 {
+    width: 49%;
+    height: 500px;
+    background: url('2.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.secondary-image2 {
+    width: 49%;
+    height: 500px;
+    background: url('1.png') no-repeat center center;
+    background-size: cover;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer h2 {
+    font-family: 'playfair';
+    font-size: 36px;
+    margin: 0;
+}
+.footer p {
+    margin: 10px 0;
+}
+.footer .newsletter {
+    margin: 20px 0;
+}
+.footer .newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+.footer .newsletter input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d8bfd8;
+    color: black;
+    cursor: pointer;
+}
+.footer .contact-info {
+    margin-top: 20px;
+}
