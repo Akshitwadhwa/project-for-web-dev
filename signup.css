@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image\ background.png); /* Use your desired background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 480px; /* Increased size by 60% */
+    height: 700px; /* Adjusted to fit more fields */
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+.container h1{
+    font-size: 36px;
+    color: pink;
+}
+.text{
+    position: relative;
+    top: 5%; /* Adjusted top spacing for better centering */
+}
+.inp1, .inp2, .inp3{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 400px; /* Adjusted width to fit new container */
+    font-size: 20px;
+    margin-top: 30px; /* Reduced spacing for more inputs */
+    outline: none;
+    color: white;
+}
+.text button{
+    width: 400px; /* Adjusted width to fit new container */
+    height: 44px;
+    background-color: rgb(12, 1, 3);
+    color: rgb(249, 241, 241);
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+p span{
+    color: pink;
+    cursor: pointer;
+}
