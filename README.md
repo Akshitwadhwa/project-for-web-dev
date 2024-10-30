@@ -1,1 +1,5 @@
-# project-for-web-dev
+This is the web dev project I am building in my second year of CS major.  It mostly used HTML and CSS, with some twigs of javascript being used here and there. 
+The baisc problem statement of this project was that in todays day and age we have to depend upon various offline / online vendors scattered around various places to book any event or any party which you wish to have. 
+There is no one place where you can get all of this, you need to call 10 different people for catering , venue were the event will be held , dj will haave to be booked seperalty , the vallet management if you are booking in an open place.
+All of this is a hastle which can be coped if they are all interlinked and the event manager is a common person under which all these fields fall. So we have have created a one-in-all website which is called "Make-all-stops". 
+Inititaly we have made the portal for 3 events which are office events , bithday parties , weddings since these are the one which require the most of the interlinking of all the above jobs.
