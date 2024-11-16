@@ -1,0 +1,163 @@
+{
+  "header": {
+    "logo": {
+      "icon": "fas fa-user",
+      "text": "planner"
+    },
+    "navbar": [
+      { "href": "#home", "text": "home" },
+      { "href": "#about", "text": "about" },
+      { "href": "#services", "text": "service" },
+      { "href": "#plan", "text": "pricing" },
+      { "href": "#gallery", "text": "gallery" },
+      { "href": "#review", "text": "review" },
+      { "href": "#contact", "text": "contact" }
+    ],
+    "icons": [
+      { "icon": "fas fa-moon", "id": "theme-btn" },
+      { "icon": "fas fa-bars", "id": "menu" }
+    ]
+  },
+  "sections": {
+    "home": {
+      "heading": "your dream wedding as simple as pie",
+      "button": "see more info",
+      "image": "home.jpg"
+    },
+    "about": {
+      "heading": "about us",
+      "content": {
+        "title": "team of passionate people",
+        "paragraphs": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam officiis, reiciendis veniam incidunt architecto quam velit dolorum exercitationem cum aliquam ab quas dicta dolores ad earum quasis.",
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci totam, nam voluptates quis delectus. Ea quo repudiandae."
+        ],
+        "button": "read more"
+      },
+      "image": "about.jpg"
+    },
+    "services": {
+      "heading": "our services",
+      "items": [
+        {
+          "image": "service1.png",
+          "title": "full video and camera service",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?"
+        },
+        {
+          "image": "service2.png",
+          "title": "we arrange flowers and decorations",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, non?"
+        },
+        {
+          "image": "service3.png",
+          "title": "finding the right place for you",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, minima?"
+        }
+      ]
+    },
+    "plan": {
+      "heading": "membership plan",
+      "plans": [
+        {
+          "title": "basic",
+          "price": "10.99",
+          "currency": "$",
+          "duration": "per month",
+          "features": [
+            "photography",
+            "consultation",
+            "full assistance",
+            "vendor referrals",
+            "find place"
+          ],
+          "available": [true, true, true, false, false]
+        },
+        {
+          "title": "standard",
+          "price": "19.99",
+          "currency": "$",
+          "duration": "per month",
+          "features": [
+            "photography",
+            "consultation",
+            "full assistance",
+            "vendor referrals",
+            "find place"
+          ],
+          "available": [true, true, true, true, false]
+        },
+        {
+          "title": "premium",
+          "price": "29.99",
+          "currency": "$",
+          "duration": "per month",
+          "features": [
+            "photography",
+            "consultation",
+            "full assistance",
+            "vendor referrals",
+            "find place"
+          ],
+          "available": [true, true, true, true, true]
+        }
+      ]
+    },
+    "gallery": {
+      "heading": "our gallery",
+      "images": [
+        "gallery-1.jpg",
+        "gallery-2.jpg",
+        "gallery-3.jpg",
+        "gallery-4.jpg",
+        "gallery-5.jpg",
+        "gallery-6.jpg",
+        "gallery-7.jpg"
+      ]
+    },
+    "review": {
+      "heading": "client's review",
+      "reviews": [
+        {
+          "image": "pic-1.png",
+          "name": "john deo",
+          "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!",
+          "stars": 4.5
+        },
+        {
+          "image": "pic-2.png",
+          "name": "john deo",
+          "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!",
+          "stars": 4.5
+        },
+        {
+          "image": "pic-3.png",
+          "name": "john deo",
+          "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!",
+          "stars": 4.5
+        },
+        {
+          "image": "pic-4.png",
+          "name": "john deo",
+          "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sunt eligendi est, dicta maiores amet nihil perferendis, incidunt maxime aspernatur exercitationem laboriosam odio dolores magnam ratione atque, quasi odit. Hic!",
+          "stars": 4.5
+        }
+      ]
+    },
+    "contact": {
+      "heading": "contact us",
+      "form": {
+        "fields": [
+          { "type": "text", "placeholder": "name" },
+          { "type": "email", "placeholder": "email" },
+          { "type": "number", "placeholder": "number" },
+          { "type": "date" },
+          { "type": "text", "placeholder": "your address" },
+          { "type": "select", "options": ["basic plan", "premium plan", "ultimate plan"] },
+          { "type": "textarea", "placeholder": "your message" }
+        ],
+        "button": "send message"
+      }
+    }
+  }
+}

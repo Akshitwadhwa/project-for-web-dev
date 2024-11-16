@@ -1,54 +1,75 @@
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .navbar {
-    background-color: #f5f5dc;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navbar h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5em;
-    margin: 0;
-  }
-  
-  .navbar p {
-    font-size: 1em;
-    margin: 0;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    margin: 0;
-  }
-  
-  .navbar ul li {
-    margin: 0 10px;
-  }
-  
-  .navbar ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-  }
-  
-  .navbar .social-icons {
-    display: flex;
-  }
-  
-  .navbar .social-icons a {
-    margin-left: 10px;
-    font-size: 1.5em;
-    color: black;
-  }
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #d4b6b6;
+}
 
+.navbar {
+  background-color: #f5f5dc;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255 ,255 , 255 , 0.8);
+  align-items: center;
+  z-index: 1000;
+ 
+}
+.navbar-logo {
+  width:400px;
+  height: 100px;
+  margin-right: 10px;
+  position: relative;
+}
+.navbar p {
+  font-family: 'Playfair Display', serif;
+  font-size: 5em;
+  margin: 0;
+}
+
+.navbar p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 4;
+  font-size: 2px;
+}
+
+.navbar ul li {
+  margin: 10px;
+  font size:10em;
+  ;
+}
+
+.navbar ul li a1{
+  text-decoration: none;
+  color: black;
+  font-size: 10em;
+  margin: 10px;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 10em;
+  margin: 10px;
+  
+}
+
+.navbar .social-icons {
+  display: flex;
+}
+
+.navbar .social-icons a {
+  margin-left: 10px;
+  font-size: 1.5em;
+  color: black;
+}
 .main-image {
     width: 100%;
     height: 400px;
