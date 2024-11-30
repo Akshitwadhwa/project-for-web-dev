@@ -72,7 +72,7 @@ body {
 }
 
 .main-content {
-  background-image: url('back-image.jpg');
+  background-image: url('photoes/back-image.jpg');
   background-size: contain;
   background-position: center;
   position: relative;
