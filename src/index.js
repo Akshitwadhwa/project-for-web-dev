@@ -7,13 +7,15 @@ const app = express();
 //console.log(path.join(__dirname,"../public"));
 const staticPath =  path.join(__dirname, "../public");
 
+
+
 // this will let us use the 
 app.use(express.static(staticPath));
 
 app.get("/about" , (req ,res) => {
     return res.send("you are at the webiste");
 });
-
+ 
 app.get("/name" , (req ,res) => {
     return res.send('hi');
 });
