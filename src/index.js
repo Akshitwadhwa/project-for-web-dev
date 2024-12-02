@@ -13,7 +13,7 @@ const staticPath =  path.join(__dirname, "../public");
 app.use(express.static(staticPath));
 
 app.get("/about" , (req ,res) => {
-    return res.send("you are at the webiste");
+     res.send("you are at the webiste");
 });
  
 app.get("/name" , (req ,res) => {
@@ -24,3 +24,6 @@ app.listen(5001, () => {
     console.log("lisiting the port at 5001");
 
 });
+
+
+
