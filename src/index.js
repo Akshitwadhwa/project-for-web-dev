@@ -15,7 +15,7 @@ app.use(express.static(staticPath));
 app.get("/about" , (req ,res) => {
      res.send("you are at the webiste");
 });
- 
+
 app.get("/name" , (req ,res) => {
     return res.send('hi');
 });
