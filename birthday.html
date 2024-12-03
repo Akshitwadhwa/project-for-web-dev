@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="birthday.css" />
   </head>
-  <body>
+  <body
     <div class="navbar">
         <div>
           <h1>Make All Stops</h1>
@@ -101,3 +101,14 @@
     </div>
   </body>
 </html>
+
+const fs = require('fs');
+
+
+fs.writeFile('ak wadhwa', 'Hello, World!', (err) => {
+    if (err) {
+        console.error('Error writing file:', err);
+    } else {
+        console.log('File created and data written successfully!');
+    }
+});

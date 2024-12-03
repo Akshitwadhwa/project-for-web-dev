@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #f5f5dc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .navbar p {
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 10px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+  }
+  
+  .navbar .social-icons {
+    display: flex;
+  }
+  
+  .navbar .social-icons a {
+    margin-left: 10px;
+    font-size: 1.5em;
+    color: black;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+
+  }
+  
+  .hero img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-text h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 1.5em;
+  }
+  
+  .hero-text .btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .content {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+  }
+  
+  .card-content p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .card-content .date {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .card-content .btn {
+    background-color: #00bfff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
