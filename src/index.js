@@ -56,7 +56,7 @@ app.get("/navbar", (req, res) => {
      // });
 
 app.listen(5002, () => {
-    console.log("lisiting the port at 5001");
+    console.log("lisiting the port at 5002");
 
 });
 
