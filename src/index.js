@@ -35,9 +35,9 @@ app.get("/navbar", (req, res) => {
     res.render("portfolio.handlebars", { layout: "main", title:"portfolio" });
   });
 
-  app.get("/", (req, res) => {
-    res.render("main", { layout: "main", title:"portfolio" });
-  });
+  //app.get("/", (req, res) => {
+    //res.render("main", { layout: "main", title:"portfolio" });
+  //})
 
   app.get("/birthday.html", (req, res) => {
     res.render("birthday.handlebars", { layout: "main", title:"portfolio" });
